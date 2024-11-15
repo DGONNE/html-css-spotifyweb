@@ -1,0 +1,85 @@
+/*-------------
+     RESET
+-------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*--------------
+     LAYOUT
+--------------*/
+body {
+    height: 100vh;
+}
+
+.app-wrapper {
+    display: flex;
+    height: calc(100% - 100px);
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*--------------
+     DEBUG
+--------------*/
+
+.debug .container {
+    border: 2px dashed blueviolet;
+}
+
+.debug .row .col {
+    border: 2px dashed lightcoral;
+    background-color: darkslategray;
+    min-height: 200px;
+}
+
+.debug header {
+    background-color: lightblue;
+}
+
+.debug main {
+background-color: brown;
+}
+
+.debug footer {
+    background-color: yellowgreen;
+}
+
+.debug .logo {
+    min-height: 60px;
+    background-color: bisque;
+}
+
+.debug .main-nav {
+    background-color: blueviolet;
+}
+.debug .user {
+    min-height: 100px;
+    background-color: chocolate;
+}
+
+/*------------
+     HEADER
+------------*/
+
+header {
+    width: 50px;
+    flex-shrink: 0;
+}
+
+/*-------------
+     MAIN
+--------------*/
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+}
