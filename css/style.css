@@ -26,6 +26,10 @@ body {
     margin-right: auto;
 }
 
+.img-fluid {
+    max-width: 100%;
+}
+
 
 /*--------------
      DEBUG
@@ -73,6 +77,17 @@ background-color: brown;
 header {
     width: 50px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.logo {
+    padding: 0 10px;
+}
+
+.main-nav ul {
+    list-style: none;
 }
 
 /*-------------
@@ -82,4 +97,12 @@ header {
 main {
     flex-grow: 1;
     overflow-y: auto;
+}
+
+/*-------------
+   RESPONSIVE
+  Mobile First
+-------------*/
+@media screen and (min-width: 768px) {
+    
 }
