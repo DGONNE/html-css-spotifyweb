@@ -89,6 +89,28 @@ background-color: brown;
 }
 
 /*------------
+    BUTTONS
+------------*/
+.btn {
+    background-color: transparent;
+    border: none;
+    padding: 6px 12px;
+}
+
+.btn-large {
+    padding: 10px 20px;
+    font-size:16px
+}
+
+.btn-primary {
+    background-color: lightcoral;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+
+/*------------
      HEADER
 ------------*/
 
