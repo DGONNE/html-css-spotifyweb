@@ -16,7 +16,7 @@ body {
     color: lightgray;
 }
 
-.app-wrapper {
+.appwrapper {
     display: flex;
     height: calc(100% - 100px);
 }
@@ -98,6 +98,7 @@ header {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+    height: calc(100%-100px);
 }
 
 .playlist {
@@ -146,6 +147,7 @@ main {
     flex-grow: 1;
     overflow-y: auto;
     background-color: red;
+    height: calc(100%-100px);
 }
 
 .upgrade {
