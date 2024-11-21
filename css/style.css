@@ -152,6 +152,7 @@ header {
     justify-content: center;
 }
 
+
 .main-nav li img {
     height: 26px;
 }
@@ -227,6 +228,14 @@ main {
 
 footer {
     height: 100px;
+}
+
+.bottom-container {
+    display: flex;
+}
+
+.bottom-container col {
+    width: calc(100% / 3);
 }
 
 /*-------------
